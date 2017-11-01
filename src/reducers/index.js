@@ -3,5 +3,5 @@ import libraryReducer from './libraryReducer';
 import selectionReducer from './selectionReducer';
 
 export default combineReducers({
-  libraries: () => []
+  libraries: libraryReducer
 });
