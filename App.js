@@ -11,6 +11,7 @@ const App = () => {
     <Provider store={createStore(reducers)}>
       <View>
         <Header headerText='Tech 🙌 Stack' />
+        <LibraryList />
       </View>
     </Provider>
   );
